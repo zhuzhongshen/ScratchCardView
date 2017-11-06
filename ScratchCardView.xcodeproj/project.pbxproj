@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5939E551FB033E6002F9105 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5939E541FB033E6002F9105 /* AppDelegate.m */; };
+		F5939E581FB033E6002F9105 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5939E571FB033E6002F9105 /* ViewController.m */; };
+		F5939E5B1FB033E6002F9105 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5939E591FB033E6002F9105 /* Main.storyboard */; };
+		F5939E5D1FB033E6002F9105 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5939E5C1FB033E6002F9105 /* Assets.xcassets */; };
+		F5939E601FB033E6002F9105 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5939E5E1FB033E6002F9105 /* LaunchScreen.storyboard */; };
+		F5939E631FB033E6002F9105 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5939E621FB033E6002F9105 /* main.m */; };
+		F5939E6D1FB033E6002F9105 /* ScratchCardViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5939E6C1FB033E6002F9105 /* ScratchCardViewTests.m */; };
+		F5939E781FB033E6002F9105 /* ScratchCardViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5939E771FB033E6002F9105 /* ScratchCardViewUITests.m */; };
+		F5939E871FB03443002F9105 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = F5939E861FB03443002F9105 /* image.png */; };
+		F5939E8A1FB03483002F9105 /* ScratchCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = F5939E891FB03483002F9105 /* ScratchCardView.m */; };
+		F5939E8C1FB03C90002F9105 /* imageTwo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F5939E8B1FB03C90002F9105 /* imageTwo.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5939E691FB033E6002F9105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5939E481FB033E6002F9105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5939E4F1FB033E6002F9105;
+			remoteInfo = ScratchCardView;
+		};
+		F5939E741FB033E6002F9105 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5939E481FB033E6002F9105 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5939E4F1FB033E6002F9105;
+			remoteInfo = ScratchCardView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5939E501FB033E6002F9105 /* ScratchCardView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScratchCardView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5939E531FB033E6002F9105 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5939E541FB033E6002F9105 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5939E561FB033E6002F9105 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5939E571FB033E6002F9105 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5939E5A1FB033E6002F9105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F5939E5C1FB033E6002F9105 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5939E5F1FB033E6002F9105 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5939E611FB033E6002F9105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5939E621FB033E6002F9105 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5939E681FB033E6002F9105 /* ScratchCardViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchCardViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5939E6C1FB033E6002F9105 /* ScratchCardViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchCardViewTests.m; sourceTree = "<group>"; };
+		F5939E6E1FB033E6002F9105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5939E731FB033E6002F9105 /* ScratchCardViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScratchCardViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5939E771FB033E6002F9105 /* ScratchCardViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchCardViewUITests.m; sourceTree = "<group>"; };
+		F5939E791FB033E6002F9105 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5939E861FB03443002F9105 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = image.png; sourceTree = "<group>"; };
+		F5939E881FB03483002F9105 /* ScratchCardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScratchCardView.h; sourceTree = "<group>"; };
+		F5939E891FB03483002F9105 /* ScratchCardView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScratchCardView.m; sourceTree = "<group>"; };
+		F5939E8B1FB03C90002F9105 /* imageTwo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = imageTwo.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5939E4D1FB033E6002F9105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5939E651FB033E6002F9105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5939E701FB033E6002F9105 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5939E471FB033E6002F9105 = {
+			isa = PBXGroup;
+			children = (
+				F5939E521FB033E6002F9105 /* ScratchCardView */,
+				F5939E6B1FB033E6002F9105 /* ScratchCardViewTests */,
+				F5939E761FB033E6002F9105 /* ScratchCardViewUITests */,
+				F5939E511FB033E6002F9105 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5939E511FB033E6002F9105 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5939E501FB033E6002F9105 /* ScratchCardView.app */,
+				F5939E681FB033E6002F9105 /* ScratchCardViewTests.xctest */,
+				F5939E731FB033E6002F9105 /* ScratchCardViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5939E521FB033E6002F9105 /* ScratchCardView */ = {
+			isa = PBXGroup;
+			children = (
+				F5939E851FB0343C002F9105 /* Resources */,
+				F5939E531FB033E6002F9105 /* AppDelegate.h */,
+				F5939E541FB033E6002F9105 /* AppDelegate.m */,
+				F5939E561FB033E6002F9105 /* ViewController.h */,
+				F5939E571FB033E6002F9105 /* ViewController.m */,
+				F5939E881FB03483002F9105 /* ScratchCardView.h */,
+				F5939E891FB03483002F9105 /* ScratchCardView.m */,
+				F5939E591FB033E6002F9105 /* Main.storyboard */,
+				F5939E5C1FB033E6002F9105 /* Assets.xcassets */,
+				F5939E5E1FB033E6002F9105 /* LaunchScreen.storyboard */,
+				F5939E611FB033E6002F9105 /* Info.plist */,
+				F5939E621FB033E6002F9105 /* main.m */,
+			);
+			path = ScratchCardView;
+			sourceTree = "<group>";
+		};
+		F5939E6B1FB033E6002F9105 /* ScratchCardViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5939E6C1FB033E6002F9105 /* ScratchCardViewTests.m */,
+				F5939E6E1FB033E6002F9105 /* Info.plist */,
+			);
+			path = ScratchCardViewTests;
+			sourceTree = "<group>";
+		};
+		F5939E761FB033E6002F9105 /* ScratchCardViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F5939E771FB033E6002F9105 /* ScratchCardViewUITests.m */,
+				F5939E791FB033E6002F9105 /* Info.plist */,
+			);
+			path = ScratchCardViewUITests;
+			sourceTree = "<group>";
+		};
+		F5939E851FB0343C002F9105 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F5939E8B1FB03C90002F9105 /* imageTwo.jpg */,
+				F5939E861FB03443002F9105 /* image.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5939E4F1FB033E6002F9105 /* ScratchCardView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5939E7C1FB033E6002F9105 /* Build configuration list for PBXNativeTarget "ScratchCardView" */;
+			buildPhases = (
+				F5939E4C1FB033E6002F9105 /* Sources */,
+				F5939E4D1FB033E6002F9105 /* Frameworks */,
+				F5939E4E1FB033E6002F9105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScratchCardView;
+			productName = ScratchCardView;
+			productReference = F5939E501FB033E6002F9105 /* ScratchCardView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5939E671FB033E6002F9105 /* ScratchCardViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5939E7F1FB033E6002F9105 /* Build configuration list for PBXNativeTarget "ScratchCardViewTests" */;
+			buildPhases = (
+				F5939E641FB033E6002F9105 /* Sources */,
+				F5939E651FB033E6002F9105 /* Frameworks */,
+				F5939E661FB033E6002F9105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5939E6A1FB033E6002F9105 /* PBXTargetDependency */,
+			);
+			name = ScratchCardViewTests;
+			productName = ScratchCardViewTests;
+			productReference = F5939E681FB033E6002F9105 /* ScratchCardViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F5939E721FB033E6002F9105 /* ScratchCardViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5939E821FB033E6002F9105 /* Build configuration list for PBXNativeTarget "ScratchCardViewUITests" */;
+			buildPhases = (
+				F5939E6F1FB033E6002F9105 /* Sources */,
+				F5939E701FB033E6002F9105 /* Frameworks */,
+				F5939E711FB033E6002F9105 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5939E751FB033E6002F9105 /* PBXTargetDependency */,
+			);
+			name = ScratchCardViewUITests;
+			productName = ScratchCardViewUITests;
+			productReference = F5939E731FB033E6002F9105 /* ScratchCardViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5939E481FB033E6002F9105 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "goldeneye by smart-small";
+				TargetAttributes = {
+					F5939E4F1FB033E6002F9105 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					F5939E671FB033E6002F9105 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5939E4F1FB033E6002F9105;
+					};
+					F5939E721FB033E6002F9105 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F5939E4F1FB033E6002F9105;
+					};
+				};
+			};
+			buildConfigurationList = F5939E4B1FB033E6002F9105 /* Build configuration list for PBXProject "ScratchCardView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5939E471FB033E6002F9105;
+			productRefGroup = F5939E511FB033E6002F9105 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5939E4F1FB033E6002F9105 /* ScratchCardView */,
+				F5939E671FB033E6002F9105 /* ScratchCardViewTests */,
+				F5939E721FB033E6002F9105 /* ScratchCardViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5939E4E1FB033E6002F9105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5939E601FB033E6002F9105 /* LaunchScreen.storyboard in Resources */,
+				F5939E5D1FB033E6002F9105 /* Assets.xcassets in Resources */,
+				F5939E8C1FB03C90002F9105 /* imageTwo.jpg in Resources */,
+				F5939E5B1FB033E6002F9105 /* Main.storyboard in Resources */,
+				F5939E871FB03443002F9105 /* image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5939E661FB033E6002F9105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5939E711FB033E6002F9105 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5939E4C1FB033E6002F9105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5939E581FB033E6002F9105 /* ViewController.m in Sources */,
+				F5939E8A1FB03483002F9105 /* ScratchCardView.m in Sources */,
+				F5939E631FB033E6002F9105 /* main.m in Sources */,
+				F5939E551FB033E6002F9105 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5939E641FB033E6002F9105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5939E6D1FB033E6002F9105 /* ScratchCardViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5939E6F1FB033E6002F9105 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5939E781FB033E6002F9105 /* ScratchCardViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5939E6A1FB033E6002F9105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5939E4F1FB033E6002F9105 /* ScratchCardView */;
+			targetProxy = F5939E691FB033E6002F9105 /* PBXContainerItemProxy */;
+		};
+		F5939E751FB033E6002F9105 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5939E4F1FB033E6002F9105 /* ScratchCardView */;
+			targetProxy = F5939E741FB033E6002F9105 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5939E591FB033E6002F9105 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5939E5A1FB033E6002F9105 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F5939E5E1FB033E6002F9105 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5939E5F1FB033E6002F9105 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5939E7A1FB033E6002F9105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F5939E7B1FB033E6002F9105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5939E7D1FB033E6002F9105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = ScratchCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.ScratchCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5939E7E1FB033E6002F9105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = ScratchCardView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.ScratchCardView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F5939E801FB033E6002F9105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = ScratchCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.ScratchCardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchCardView.app/ScratchCardView";
+			};
+			name = Debug;
+		};
+		F5939E811FB033E6002F9105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = ScratchCardViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.ScratchCardViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScratchCardView.app/ScratchCardView";
+			};
+			name = Release;
+		};
+		F5939E831FB033E6002F9105 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = ScratchCardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.ScratchCardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScratchCardView;
+			};
+			name = Debug;
+		};
+		F5939E841FB033E6002F9105 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9C5A22C422;
+				INFOPLIST_FILE = ScratchCardViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = goldeneye.demo.ScratchCardViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ScratchCardView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5939E4B1FB033E6002F9105 /* Build configuration list for PBXProject "ScratchCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5939E7A1FB033E6002F9105 /* Debug */,
+				F5939E7B1FB033E6002F9105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5939E7C1FB033E6002F9105 /* Build configuration list for PBXNativeTarget "ScratchCardView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5939E7D1FB033E6002F9105 /* Debug */,
+				F5939E7E1FB033E6002F9105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5939E7F1FB033E6002F9105 /* Build configuration list for PBXNativeTarget "ScratchCardViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5939E801FB033E6002F9105 /* Debug */,
+				F5939E811FB033E6002F9105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5939E821FB033E6002F9105 /* Build configuration list for PBXNativeTarget "ScratchCardViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5939E831FB033E6002F9105 /* Debug */,
+				F5939E841FB033E6002F9105 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5939E481FB033E6002F9105 /* Project object */;
+}
